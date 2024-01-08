@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:7:5-72:19
+12        android:name="com.android.attendance.context.ApplicationContext"
+12-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:8:10-74
+13        android:allowBackup="true"
+13-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:9:9-35
+14        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+14-->[com.android.support:support-compat:28.0.0] C:\Users\SURAJ\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@drawable/ic_launcher"
+17-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:10:9-45
+18        android:label="@string/app_name"
+18-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:11:9-41
+19        android:theme="@style/AppTheme" >
+19-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:12:9-40
+20        <activity
+20-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:13:9-22:20
+21            android:name="com.android.attendance.activity.MainActivity"
+21-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:14:13-72
+22            android:exported="true"
+22-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:15:13-36
+23            android:label="@string/app_name" >
+23-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:16:13-45
+24            <intent-filter>
+24-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:17:13-21:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:18:17-69
+25-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:18:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:20:17-77
+27-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:20:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:23:10-26:20
+31            android:name="com.android.attendance.activity.LoginActivity"
+31-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:24:13-73
+32            android:label="@string/app_name" >
+32-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:25:13-45
+33        </activity>
+34        <activity
+34-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:27:10-30:20
+35            android:name="com.android.attendance.activity.MenuActivity"
+35-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:28:13-72
+36            android:label="@string/app_name" >
+36-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:29:13-45
+37        </activity>
+38        <activity
+38-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:31:10-34:20
+39            android:name="com.android.attendance.activity.AddFacultyActivity"
+39-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:32:13-78
+40            android:label="@string/app_name" >
+40-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:33:13-45
+41        </activity>
+42        <activity
+42-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:35:9-38:20
+43            android:name="com.android.attendance.activity.AddStudentActivity"
+43-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:36:13-78
+44            android:label="@string/app_name" >
+44-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:37:13-45
+45        </activity>
+46        <activity
+46-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:39:9-42:20
+47            android:name="com.android.attendance.activity.ViewFacultyActivity"
+47-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:40:13-79
+48            android:label="@string/app_name" >
+48-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:41:13-45
+49        </activity>
+50        <activity
+50-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:43:9-46:20
+51            android:name="com.android.attendance.activity.ViewStudentActivity"
+51-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:44:13-79
+52            android:label="@string/app_name" >
+52-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:45:13-45
+53        </activity>
+54        <activity
+54-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:47:9-50:20
+55            android:name="com.android.attendance.activity.TestActivity"
+55-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:48:13-72
+56            android:label="@string/app_name" >
+56-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:49:13-45
+57        </activity>
+58        <activity
+58-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:51:10-54:20
+59            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+59-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:52:13-83
+60            android:label="@string/app_name" >
+60-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:53:13-45
+61        </activity>
+62        <activity
+62-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:55:11-58:20
+63            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+63-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:56:13-88
+64            android:label="@string/app_name" >
+64-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:57:13-45
+65        </activity>
+66        <activity
+66-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:59:10-62:20
+67            android:name="com.android.attendance.activity.AddAttendanceActivity"
+67-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:60:13-81
+68            android:label="@string/app_name" >
+68-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:61:13-45
+69        </activity>
+70        <activity
+70-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:63:10-66:20
+71            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+71-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:64:13-91
+72            android:label="@string/app_name" >
+72-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:65:13-45
+73        </activity>
+74        <activity
+74-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:67:10-70:20
+75            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+75-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:68:13-92
+76            android:label="@string/app_name" >
+76-->D:\Code\java\Android\Android-Attendance-App-2023\app\src\main\AndroidManifest.xml:69:13-45
+77        </activity>
+78    </application>
+79
+80</manifest>

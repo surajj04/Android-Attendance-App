@@ -1,0 +1,7 @@
+#Sat Jan 06 18:15:40 IST 2024
+base.0=D\:\\Code\\java\\Android\\Android-Attendance-App-2023\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=D\:\\Code\\java\\Android\\Android-Attendance-App-2023\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\15\\classes.dex
+path.0=0/classes.dex
+path.1=15/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
